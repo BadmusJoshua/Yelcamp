@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-in page</title>
+    <link rel="stylesheet" type="text/css" href="signIn.css">
+</head>
+<body>
+    <div class="main">
+        <header id="mainHeader">
+            <img src="../Assets/Logo.svg" alt="logoIcon" class="logo">
+            <div class="campground">
+                <a href="searchPageNotLoggedIn.html"><div class="arrow"><img src="../Assets/Arrow.png" alt="arrowIcon" class="arrow"></div>
+                <p>Back to campgrounds</p></a>
+            </div>
+        </header>
+    
+        <form action="searchPageLoggedIn.html" class="validation">
+            <h1>Start exploring camps from all around the world.</h1>
+            <label for="username">Username</label>
+            <input type="text" name="password" placeholder="johndoe_91" required>
+            <label for="password">Password</label>
+            <input type="password" name="password" placeholder="Enter your Password" required>
+            <button class="login">Login</button>
+            <p>Not a user yet? <a href="signUp.html"><b>Create an account</b></a></p>
+        </form>
+    </div>
+    
+    <div class="testimonial">
+        <p class="testimony">"Yelpcamp has honestly saved me hours of research time, and the camps on here are definitely well picked and added."</p>
+
+        <div class="user">
+            <img src="../Assets/User Testimonial.svg" alt="userIcon">
+            <div class="bio">
+                <p class="name">May Andrews</p>
+                <p class="career">Professional Hiker</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
