@@ -1,0 +1,259 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* display: flex; */
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 50px 15px;
+    /* height: 100%; */
+}
+
+@media (min-width: 375px) {
+    body{
+        /* display: flex; */
+        font-family:Arial, Helvetica, sans-serif;
+        margin: 50px 15px;
+        /* height: 100%; */
+    }
+
+    .container{
+        height: 100vh; 
+        /* border: 1px solid black; */
+        display: flex;
+        flex-direction: column;
+    }
+
+    .icon-side{
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 30px;
+    }
+
+    .form h4{
+        font-size: 27px;
+        word-spacing: 2px;
+        padding-bottom: 20px;
+    }
+
+    .form label{
+        color: rgb(106, 105, 105);
+    }
+
+    .form textarea{
+        background-color: rgb(241, 241, 241);
+        color: rgb(177, 174, 174);
+        margin-top: 12px;
+        border-radius: 5px;
+        border-color: rgb(241, 241, 241);
+        width: 343px;
+        resize: none;
+        padding: 20px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 17px;
+    }
+
+    .home{
+        display: none;
+    }
+
+    .info-side{
+        display: none;
+    }
+
+    button{
+        background-color: black;
+        color: white;
+        width: 343px;
+        height: 50px;
+        font-weight: bold;
+        margin: 15px 0px 70px 0px;
+        border-radius: 5px;
+    }
+}
+
+@media (min-width: 768px) {
+    body{
+        /* display: flex; */
+        font-family:Arial, Helvetica, sans-serif;
+        margin: 90px 40px;
+        /* height: 100%; */
+    }
+
+    .container{
+        height: 100vh; 
+        /* border: 1px solid black; */
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .logo{
+        width: 200px;
+        margin-bottom: 20px;
+    }
+
+    .icon-side{
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 30px;
+    }
+
+    .form h4{
+        font-size: 40px;
+        word-spacing: 2px;
+        padding-bottom: 40px;
+    }
+
+    .form label{
+        color: rgb(106, 105, 105);
+        font-size: 23px;
+    }
+
+    .form textarea{
+        background-color: rgb(241, 241, 241);
+        color: rgb(177, 174, 174);
+        margin-top: 20px;
+        border-radius: 5px;
+        border-color: rgb(241, 241, 241);
+        width: 600px;
+        resize: none;
+        height: 270px;
+        padding: 30px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        word-spacing: 2px;
+    }
+
+    /* .form textarea::after{
+        border-color: rgb(241, 241, 241);;
+    } */
+
+    .home{
+        display: none;
+    }
+
+    .info-side{
+        display: none;
+    }
+
+    button{
+        background-color: black;
+        color: white;
+        width: 600px;
+        height: 80px;
+        font-size: 20px;
+        font-weight: bold;
+        margin: 20px 0px 110px 0px;
+        border-radius: 8px;
+    }
+}
+
+@media (min-width: 1024px) {
+    body{
+        /* display: flex; */
+        font-family:Arial, Helvetica, sans-serif;
+        margin: 70px 100px;
+        /* height: 100%; */
+    }
+
+    .container{
+        height: 100vh; 
+        /* border: 1px solid black; */
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .icon-side{
+        /* display: flex; */
+        /* justify-content: space-between; */
+        padding-bottom: 30px;
+        /* border: 1px solid black; */
+        gap: 2.3em;
+    }
+
+    .home{
+        display: block;
+        padding-top: 7px;
+        cursor: pointer;
+    }
+
+    .logo{
+        width: 130px;
+    }
+
+    .name{
+        font-weight: bolder;
+    }
+
+    .hamburger{
+        display: none;
+    }
+
+    .info-side{
+        /* border: 1px solid black;  */
+        display: flex;
+        padding-top: 7px;
+        gap: 2.3rem;
+        cursor: pointer;
+    }
+
+    .arrange{
+        display: flex;
+        justify-content: center;
+    }
+
+    .form{
+        /* border: 1px solid black; */
+        width: 600px;
+    }
+
+    .form h4{
+        font-size: 27px;
+        word-spacing: 2px;
+        padding-bottom: 20px;
+    }
+
+    .form label{
+        color: rgb(106, 105, 105);
+        font-size: 17px;
+    }
+
+    .form textarea{
+        background-color: rgb(241, 241, 241);
+        color: rgb(177, 174, 174);
+        margin-top: 12px;
+        border-radius: 5px;
+        border-color: rgb(241, 241, 241);
+        width: 600px;
+        resize: none;
+        padding: 20px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 17px;
+    }
+
+
+    button{
+        background-color: black;
+        color: white;
+        width: 600px;
+        height: 50px;
+        font-weight: bold;
+        margin: 15px 0px 70px 0px;
+        border-radius: 5px;
+    }
+
+    button:hover{
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+}
+
+
+
