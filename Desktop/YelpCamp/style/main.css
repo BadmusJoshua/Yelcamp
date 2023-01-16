@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  padding: 5rem 1rem;
+}
+
+header div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section {
+  padding-top: 3rem;
+}
+section .container {
+  padding: 2.5rem;
+  border: 1px solid #b4b3b3;
+  border-radius: 0.4rem;
+}
+
+.mount-ulap .container img {
+  width: 100%;
+}
+.mount-ulap .container .pricing {
+  padding: 2rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mount-ulap .container .pricing h3 {
+  font-size: 2rem;
+}
+.mount-ulap .container .pricing p {
+  padding-bottom: 0;
+}
+.mount-ulap .container p {
+  font-size: 1.6rem;
+  padding-bottom: 2rem;
+}
+.mount-ulap .container cite {
+  font-size: 1.6rem;
+}
+
+.testimonial .container div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.testimonial .container div h4 {
+  font-size: 1.6rem;
+}
+.testimonial .container p {
+  font-size: 1.6rem;
+  padding: 1rem 0;
+}
+.testimonial .container button {
+  background: #000000;
+  color: #ffffff;
+  margin-top: 2rem;
+  border: none;
+  border-radius: 3%;
+  padding: 1rem 1.5rem;
+}
+
+.map .container img {
+  width: 100%;
+}/*# sourceMappingURL=main.css.map */
