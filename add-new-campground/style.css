@@ -1,0 +1,301 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+@media (min-width: 375px) {
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 30px 20px;
+        height: 800px;
+    }
+
+    container{
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        /* border: 1px solid rgb(199, 26, 26); */
+    }
+
+    .home{
+        display: none;
+    }
+
+    .name-logout{
+        display: none;
+    }
+
+    .icon-home{
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 27px;
+    }
+
+    .form{
+        /* border: 1px solid black; */
+        height: 100%;
+    }
+
+    .form h3{
+        font-size: 25px;
+        margin-right: 90px;
+        padding-bottom: 20px;
+    }
+
+    .form .label{
+        font-size: 12px;
+        color: rgb(109, 109, 109);
+        font-weight: 500;
+    }
+
+    .form input{
+        margin: 8px 0px 14px;
+        width: 333px;
+        height: 50px;
+        background-color: rgb(241, 241, 241);
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+    }
+
+    .form textarea{
+        margin: 8px 0px 14px;
+        width: 333px;
+        height: 150px;
+        background-color: rgb(241, 241, 241);
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        /* color: rgb(217, 217, 217); */
+        word-spacing: 2px;
+        border: none;
+        resize: none;
+    }
+
+    button{
+        width: 333px;
+        height: 50px;
+        color: white;
+        background-color: black;
+        border-radius: 5px;
+        font-weight: bold;
+        margin-bottom: 70px;
+    }
+
+}
+
+@media (min-width: 768px) {
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 40px 30px;
+        height: 800px;
+    }
+
+    container{
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        /* border: 1px solid rgb(199, 26, 26); */
+    }
+
+    .home{
+        display: none;
+    }
+
+    .hamburger{
+        display: block;
+    }
+
+    .name-logout{
+        display: none;
+    }
+
+    .icon-home{
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 27px;
+        width: 650px
+    }
+
+    .top{
+        width: 100px;
+        margin-bottom: 10px;
+    }
+
+    .form{
+        /* border: 1px solid black; */
+        height: 100%;
+    }
+
+    .form h3{
+        font-size: 30px;
+        margin-right: 90px;
+        padding-bottom: 20px;
+    }
+
+    .form .label{
+        font-size: 14px;
+        color: rgb(109, 109, 109);
+        font-weight: 500;
+    }
+
+    .form input{
+        margin: 8px 0px 14px;
+        width: 450px;
+        height: 50px;
+        background-color: rgb(241, 241, 241);
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+    }
+
+    .form textarea{
+        margin: 8px 0px 14px;
+        width: 450px;
+        height: 170px;
+        background-color: rgb(241, 241, 241);
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        /* color: rgb(217, 217, 217); */
+        word-spacing: 2px;
+        border: none;
+        resize: none;
+        line-height: 23px;
+    }
+
+    button{
+        width: 450px;
+        height: 50px;
+        color: white;
+        background-color: black;
+        border-radius: 5px;
+        font-size: 13px;
+        font-weight: bold;
+        margin-bottom: 55px;
+    }
+}
+
+@media (min-width: 1024px) {
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 20px 150px;
+        height: 600px;
+    }
+
+    container{
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid rgb(199, 26, 26);
+    }
+
+    .nav{
+        display: flex;
+        justify-content: space-between;
+        /* border: 1px solid black; */
+    }
+
+    .arrange{
+        display: flex;
+        justify-content: center;
+        /* border: 1px solid black; */
+    }
+
+    .home{
+        display: block;
+        padding-top: 4px;
+        cursor: pointer;
+    }
+
+    .name-logout{
+        display: flex;
+        padding-top: 4px;
+        justify-content: space-between;
+        gap: 2.5rem;
+    }
+
+    .name-logout:hover{
+        cursor: pointer;
+    }
+    
+    .name-logout .name{
+        font-weight: bold;
+    }
+
+    .icon-home{
+        display: flex;
+        padding-bottom: 27px;
+        width: 180px;
+        /* border: 1px solid black; */
+    }
+
+    .hamburger{
+        display: none;
+    }
+
+    .form{
+        /* border: 1px solid black; */
+        height: 100%;
+        /* border: 1px solid black; */
+        width: 400px;
+    }
+
+    .form h3{
+        font-size: 23px;
+        margin-right: 90px;
+        padding-bottom: 20px;
+    }
+
+    .form .label{
+        font-size: 12px;
+        color: rgb(109, 109, 109);
+        font-weight: 500;
+    }
+
+    .form input{
+        margin: 8px 0px 14px;
+        width: 400px;
+        height: 50px;
+        background-color: rgb(241, 241, 241);
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+    }
+
+    .form textarea{
+        margin: 8px 0px 14px;
+        width: 400px;
+        height: 150px;
+        background-color: rgb(241, 241, 241);
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        font-size: 12px;
+        line-height: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        /* color: rgb(217, 217, 217); */
+        word-spacing: 2px;
+        border: none;
+        resize: none;
+    }
+
+    button{
+        width: 400px;
+        height: 50px;
+        color: white;
+        background-color: black;
+        border-radius: 5px;
+        font-weight: bold;
+        margin-bottom: 50px;
+    }
+
+    button:hover{
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+}
