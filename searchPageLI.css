@@ -155,7 +155,7 @@ input{
     cursor: pointer;
 }
 
-@media(max-width:1000px){
+@media(max-width:768px){
     body{
         padding: 0px 50px;
         padding-bottom: 50px;
@@ -192,6 +192,10 @@ input{
         padding-right: 40%;
     }
 
+    input{
+        width: 150px;
+    }
+
     .viewCampground{
         width: calc(100% / 2.04);
     }
@@ -201,9 +205,10 @@ input{
     }
 }
 
-@media(max-width:600px){
+@media(max-width:375px){
     body{
         padding: 0px 20px;
+        padding-bottom: 50px;
     }
 
     .home{
