@@ -13,12 +13,28 @@
   margin: auto;
   /* border:1px solid black; */
 }
-:is(.home, .sign) {
+.home {
   display: flex;
-  border: 1px solid red;
-  width: 20%;
+  width: 25vw;
   align-items: center;
   justify-content: space-between;
+}
+.sign{
+  display: flex;
+  width:20vw;
+  align-items: center;
+  justify-content: space-between;
+}
+.header a{
+  color:rgb(174, 168, 168)
+}
+.login-name{
+  font-size:17px;
+  font-weight:bold;
+  font-weight: bolder;
+}
+.hamburger{
+  display: none;
 }
 a {
   text-decoration: none;
@@ -114,22 +130,22 @@ p {
     width: 70%;
   }
   .home {
-    display: flex;
-    width: 30%;
-    align-items: center;
-    justify-content: space-between;
+    min-width: 30%;
     border: none;
   }
-  .sign {
-    border: none;
+  .login-name{
+  display:none;
   }
   .home a {
     display: none;
   }
   .sign {
-    width: fit-content;
+    width: 5%;
     padding: 5px;
     background-color: rgb(238, 232, 232);
+  }
+  .hamburger{
+    display:block;
   }
   :is(.sign a, .sign button) {
     display: none;
@@ -147,8 +163,8 @@ p {
     justify-content: center;
   }
   .details button {
-    min-width: 25%;
-    max-width: 30%;
+    min-width:10%;
+    max-width: 55%;
     float: left;
   }
   .map {
@@ -191,5 +207,8 @@ p {
   }
   .home {
     width: 40%;
+  }
+  .logo{
+    height:100%;
   }
 }
