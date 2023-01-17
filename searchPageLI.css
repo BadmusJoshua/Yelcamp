@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0px 100px;
+    padding-bottom: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#mainHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0px;
+}
+
+.home{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.username{
+    display: none;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.profile{
+    display: flex;
+}
+
+.profile a{
+    text-decoration: none;
+    color: black;
+}
+
+.profile a:hover{
+    color: red;
+}
+
+.menu{
+    display: none;
+    background-color: rgb(248, 242, 234);
+    padding: 5px;
+    height: 40px;
+    width: 40px;
+    border-top-left-radius: 5px;
+    font-size: 0px;
+}
+
+.menu img{
+    filter:brightness(0) invert(0);
+}
+
+.yelpCamp{
+    background-color: rgb(248, 242, 234);
+    padding: 50px 30px;
+    padding-right: 60%;
+}
+
+.searchBar{
+    display: flex;
+    padding: 20px 0px;
+}
+
+input{
+    height: 40px;
+    padding-left: 30px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.search{
+    position: relative;
+}
+
+.searchBar img{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+}
+
+.searchBar button{
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 0px 20px;
+}
+
+.searchBar button:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+.yelpCamp a{
+    color: black;
+}
+
+.yelpCamp a:hover{
+    color: red;
+}
+
+.container{
+    padding: 50px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.viewCampground{
+    width: calc(100% / 3.1);
+    margin-bottom: 2%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 5px;
+    border: 1px solid gray;
+    border-bottom: 1px solid rgb(239, 239, 239);
+}
+
+.viewCampground img{
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.head{
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.viewCampground button{
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    width: 100%;
+    background-color: white;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.viewCampground button:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+@media(max-width:768px){
+    body{
+        padding: 0px 50px;
+        padding-bottom: 50px;
+    }
+
+    #mainHeader{
+        position: relative;
+    }
+
+    .menu{
+        display: flex;
+    }
+
+    .menu:hover{
+        cursor: pointer;
+    }
+
+    .home{
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        width: 100px;
+        bottom: -30px;
+        right: -30px;
+        background-color: white;
+        height: 70px;
+    }
+
+    .profile{
+        flex-direction: column;
+    }
+    
+    .yelpCamp{
+        padding-right: 40%;
+    }
+
+    input{
+        width: 150px;
+    }
+
+    .viewCampground{
+        width: calc(100% / 2.04);
+    }
+
+    .active{
+        display: flex;
+    }
+}
+
+@media(max-width:375px){
+    body{
+        padding: 0px 20px;
+        padding-bottom: 50px;
+    }
+
+    .home{
+        right: -10px;
+    }
+    
+    .yelpCamp{
+        padding-right: 30px;
+    }
+
+    .searchBar{
+        flex-direction: column;
+    }
+
+    input{
+        width: 100%;
+    }
+
+    .search{
+        margin-bottom: 20px;
+    }
+
+    .viewCampground{
+        width: 100%;
+    }
+}
