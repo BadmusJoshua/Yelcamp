@@ -5,23 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yelpcamp</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
     <header>
-        <div>
-            <img src="./Images/Logo.svg" alt="logo">
+        <div class="container">
+            <div class="nav-1">
+                <img src="./assets/Logo.svg" alt="logo">
+                <nav>
+                    <ul class="list-1">
+                        <li><a href="">Home</a></li>
+                    </ul>
+                </nav>
+            </div>
 
-            <img src="./Images/Hamburger Menu.svg" alt="Hamburger">
+            <div>
+                <img class="hamburger" src="./assets/Hamburger Menu.svg" alt="Hamburger">
+
+                <nav>
+                    <ul> 
+                        <li><a href="">Login</a></li>
+                        <button>Create an account</button>
+                    </ul> 
+                </nav>
+            </div>
         </div>
     </header>
 
     <section class="mount-ulap">
         <div class="container">
             <div>
-                <img src="./Images/Mount Ulap.jpg" alt="Mount Ulap">
+                <img src="./assets/Mount Ulap.jpg" alt="Mount Ulap">
             </div>
 
-            <div>
+            <div class="pricing">
                 <h3>Mount Ulap</h3>
                 <p>$104.99/night</p>
             </div>
@@ -58,22 +75,27 @@
             <p>Definitely recommend going there, not too far and not a lot of people to ruin the experience.</p>
             <hr>
 
-            <button>
-                <img src="./Images/Chat Bubble.svg" alt=""> Leave a Review
-            </button>
+                <button>
+                    <span>
+                        <img src="./assets/Chat Bubble.svg" alt="">
+                    </span> 
+                    <span>Leave a Review</span>
+                </button>
         </div>
     </section>
 
     <section class="map">
         <div class="container">
             <div>
-                <img src="./Images/Map.png" alt="map">
+                <img src="./assets/Map.png" alt="map">
             </div>
         </div>
     </section>
 
     <footer>
-        <img src="./Images/Logo.svg" alt="logo">
+        <div class="container">
+            <img src="./assets/Logo.svg" alt="logo">
+        </div>
     </footer>
 </body>
 </html>
