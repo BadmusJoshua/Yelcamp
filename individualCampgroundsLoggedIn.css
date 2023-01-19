@@ -1,0 +1,213 @@
+* {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+  display: block;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  width: 80%;
+  margin: auto;
+  /* border:1px solid black; */
+}
+.home {
+  display: flex;
+  width: 25vw;
+  align-items: center;
+  justify-content: space-between;
+}
+.sign{
+  display: flex;
+  width:20vw;
+  align-items: center;
+  justify-content: space-between;
+}
+.header a{
+  color:rgb(174, 168, 168)
+}
+.login-name{
+  font-size:17px;
+  font-weight:bold;
+  font-weight: bolder;
+}
+.hamburger{
+  display: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+button {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+.campground {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  width: 80%;
+  margin: auto;
+  border: 1px solid black;
+}
+.map {
+  height: 15%;
+}
+.map img {
+  width: 100%;
+  height: 100%;
+}
+.details {
+  width: 50%;
+  height: 90%;
+  /* border: 1px solid rgb(92, 210, 14); */
+  border-radius: 5px;
+  justify-content: space-between;
+}
+:is(.site-preview, .reviews) {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+.site-preview img {
+  width: 100%;
+}
+.site-name {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0px;
+  align-items: center;
+}
+p {
+  margin-bottom: 7px;
+}
+.map {
+  width: 30%;
+  border: 1px solid black;
+  height: fit-content;
+  padding: 20px;
+}
+.review-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 0px;
+}
+.avatar-name {
+  font-weight: bolder;
+}
+.time {
+  font-weight: lighter;
+}
+.details button {
+  width: 40%;
+  float: right;
+}
+.details a {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.comment-icon {
+  width: 15px;
+}
+.footer {
+  width: 80%;
+  padding: 20px;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+}
+@media screen and (max-width: 768px) {
+  .header {
+    width: 70%;
+  }
+  .home {
+    min-width: 30%;
+    border: none;
+  }
+  .login-name{
+  display:none;
+  }
+  .home a {
+    display: none;
+  }
+  .sign {
+    width: 5%;
+    padding: 5px;
+    background-color: rgb(238, 232, 232);
+  }
+  .hamburger{
+    display:block;
+  }
+  :is(.sign a, .sign button) {
+    display: none;
+  }
+  .sign > .hamburger {
+    float: right;
+  }
+  .campground {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 70%;
+    margin: auto;
+    border: none;
+    justify-content: center;
+  }
+  .details button {
+    min-width:10%;
+    max-width: 55%;
+    float: left;
+  }
+  .map {
+    height: 28vh;
+    width: 100%;
+    order: 1;
+    margin: auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .map img {
+    width: 90%;
+    height: 90%;
+  }
+  .details {
+    width: 100%;
+    height: 90%;
+    order: 0;
+    border-radius: 5px;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  :is(.site-preview, .reviews) {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 15px;
+  }
+  .footer {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 375px) {
+  .details button {
+    min-width: 70%;
+    float: left;
+  }
+  .home {
+    width: 40%;
+  }
+  .logo{
+    height:100%;
+  }
+}
