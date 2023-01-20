@@ -95,7 +95,6 @@ section{
             display: flex;
             align-items: center;
             background: #000000;
-            color: #ffffff;
             margin-top: 2rem;
             border: none;
             border-radius: 3%;
@@ -105,6 +104,11 @@ section{
 
             &:hover{
                 background: #3b3939;
+            }
+
+            a{
+                text-decoration: none;
+                color: #ffffff;
             }
             
 
@@ -191,13 +195,17 @@ footer{
                         background: #000000;
                         padding: 1.5rem;
                         border: none;
-                        color: #ffffff;
                         border-radius: .4rem;
                         font-size: 1.6rem;
                         cursor: pointer;
-
+                        
                         &:hover{
                             background: #3b3939;
+                        }
+
+                        a{
+                            text-decoration: none;
+                            color: #ffffff;
                         }
                     }
                 }

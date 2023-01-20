@@ -75,7 +75,6 @@ section .container {
   display: flex;
   align-items: center;
   background: #000000;
-  color: #ffffff;
   margin-top: 2rem;
   border: none;
   border-radius: 3%;
@@ -85,6 +84,10 @@ section .container {
 }
 .testimonial .container button:hover {
   background: #3b3939;
+}
+.testimonial .container button a {
+  text-decoration: none;
+  color: #ffffff;
 }
 .testimonial .container button img {
   padding-right: 1rem;
@@ -149,13 +152,16 @@ footer .container {
     background: #000000;
     padding: 1.5rem;
     border: none;
-    color: #ffffff;
     border-radius: 0.4rem;
     font-size: 1.6rem;
     cursor: pointer;
   }
   body header .container nav button:hover {
     background: #3b3939;
+  }
+  body header .container nav button a {
+    text-decoration: none;
+    color: #ffffff;
   }
   body .map {
     grid-column: 1/2;
